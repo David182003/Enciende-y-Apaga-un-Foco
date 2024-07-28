@@ -4,5 +4,5 @@ function prenderFoco() {
     document.getElementById('myImage').src = 'public/pic_bulbon.gif';
   }
 function apagarFoco() {
-    document.getElementById('myImage').src = 'git public/pic_bulboff.gif';
+    document.getElementById('myImage').src = 'public/pic_bulboff.gif';
   }
