@@ -31,3 +31,21 @@ button::before {
 button:hover::before {
     width: 9em;
     }
+    /* Estilos para la versión móvil */
+@media (max-width: 768px) {
+    
+    body{
+        padding: 0% 2%;
+    }
+    #btn-on,#btn-off{
+        position: absolute;
+        margin-top: 35vh;
+    }
+    #btn-on{
+        left: 30px;
+    }
+    #btn-off{
+        right: 30px;
+    }
+
+}
